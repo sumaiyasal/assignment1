@@ -15,6 +15,15 @@
   padding-left:70px;
   padding-right:70px;
 }
+.title{
+
+        font-size: 32px;
+        font-weight: 800;
+        color: rgb(13, 19, 33);
+        margin-bottom: 24px;
+        
+        
+}
 
 /* banner start here*/
 
@@ -208,4 +217,72 @@ font-size: 32px;
 font-weight: 800;
 color: rgb(13, 19, 33);
 margin-bottom: 24px;
+}
+/* target_container_section */
+.current_target{
+    max-width:1000px;
+    height: 450px;
+    text-align: center;
+    /* border:1px solid red; */
+    margin:0 auto;
+}
+.target_container{
+    margin-top:48px;
+display:flex;
+gap:40px;
+justify-content: space-between;
+/* border:3px solid green; */
+/* text-align: left; */
+}
+.target img{
+    height: 60px;
+    width:60px;
+}
+
+.target_container p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    text-align:justify;
+    opacity: 0.7;
+   color: rgb(13, 19, 33);
+   padding-bottom: 20px;
+
+}
+.target_container h2{
+font-size: 24px;
+font-weight: 800;
+color: rgb(13, 19, 33);
+margin-top:24px;
+margin-bottom: 8px;
+text-align:left;
+}
+.target{
+  /* border:1px solid blue; */
+  border-radius: 16px;
+   max-width: 280px;
+   height: 320px;
+   padding:30px;
+   display:flex;
+   flex-direction: column;
+   align-items:flex-start;
+   
+
+ 
+}
+.target1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target3{
+    background-color: rgba(255, 223, 0, 0.05);;
+}
+
+.target a{
+font-size: 16px;
+font-weight: 700;
+color: rgb(13, 19, 33);
+
 }
