@@ -174,3 +174,38 @@ margin-bottom: 20px;
     padding:12px 20px;
     cursor: pointer;
 }
+/* inspiration_section */
+.inspiration_container{
+    max-width:1000px;
+    height: 650px;
+   
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:70px;
+}
+.inspiration_container p{
+margin-bottom:40px;
+
+
+}
+.inspiration_subcontainer{
+    height:510px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    /* padding:40px; */
+  
+}
+iframe{
+    height:430px;
+    width:90%;
+    border-radius: 16px;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.inspiration_title{
+font-size: 32px;
+font-weight: 800;
+color: rgb(13, 19, 33);
+margin-bottom: 24px;
+}
